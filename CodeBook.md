@@ -9,9 +9,7 @@ Listed below are the measurements and identifiers in the tidy.txt data set.
 * Perfomed a cbind and rbind to bring all data together from the training and test files
 * Extracted only the columns that measured mean or standard deviation, removed the Freqmean columns
 * Modified the column labels to be more descriptive
-* Prepared data for calculations by performing the following:
-+ Removed any rows with missing values (since all subjects should have performed every activity)
-+ Changed the class on all measurement variables from character to numeric
+* Prepared data for calculations by performing the following:  Removed any rows with missing values (since all subjects should have performed every activity). Changed the class on all measurement variables from character to numeric.
 * Performed averages across subject and activity
 * Added columns for the grouping labels (to assign the appropriate indicators of "subject" or "activity")
 * Using rbind, brought the subject and activity averages together into one file
@@ -20,15 +18,13 @@ Listed below are the measurements and identifiers in the tidy.txt data set.
 
 ## Identifiers
 
-* 'group_type' 
-+ Identifies whether the measurement was performed on a subject_number or on an activity
-+ character field
+'group_type' - Identifies whether the measurement was performed on a subject_number or on an activity
+* character field
 
-* 'group_description' 
-+ Identifies the subject number or activity the measurement was performed on
-+ character field
-+ subject number - One of 30 volunteers within an age bracket of 19-48 years
-+ activity - Each subject performed the following six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+'group_description' - Identifies the subject number or activity the measurement was performed on
+* character field
+* subject number - One of 30 volunteers within an age bracket of 19-48 years
+* activity - Each subject performed the following six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 ## Measurements
 
