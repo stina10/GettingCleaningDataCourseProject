@@ -34,8 +34,8 @@ Several signals were captured during the study design:
 #### Uses descriptive activity names to name the activities in the data set.  The activity descriptions replaced the original activity numbers.
 #### Appropriately labels the data set with descriptive variable names.  Each label was modified to spell out the signal, domain, etc.  
 #### Creates a second, independent tidy data text file with the average of each variable for each activity and each subject that meets the following principles:  Each variable that is measured should be in one column.
-  Each different observation of that variable should be in a different row.  There should be one table for each "kind" of variable (Although, in this case the instructions specifically asked for one file).
-  If there are multiple talbes, they should include a column in the table that allows them to be linked.
+Each different observation of that variable should be in a different row.  There should be one table for each "kind" of variable (Although, in this case the instructions specifically asked for one file).
+If there are multiple talbes, they should include a column in the table that allows them to be linked.
 
 ## Packages required to run the R script:
 * data.table
