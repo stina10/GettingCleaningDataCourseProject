@@ -36,12 +36,12 @@ One R script was created called run_analysis.R that does the following.
 * Uses descriptive activity names to name the activities in the data set.
 --- The activity descriptions replaced the original activity numbers
 * Appropriately labels the data set with descriptive variable names.
---- Each label was modified to spell out the signal, domain, etc.  
+** Each label was modified to spell out the signal, domain, etc.  
 * Creates a second, independent tidy data text file with the average of each variable for each activity and each subject that meets the following principles:
---- Each variable that is measured should be in one column
---- Each different observation of that variable should be in a different row
---- There should be one table for each "kind" of variable (Although, in this case the instructions specifically asked for one file)
---- If there are multiple talbes, they should include a column in the table that allows them to be linked
+** Each variable that is measured should be in one column
+** Each different observation of that variable should be in a different row
+** There should be one table for each "kind" of variable (Although, in this case the instructions specifically asked for one file)
+** If there are multiple talbes, they should include a column in the table that allows them to be linked
 
 ## Packages required to run the R script:
 * data.table
@@ -60,17 +60,17 @@ One R script was created called run_analysis.R that does the following.
 * 'README.txt'
 
 * A code book for the tidy.txt file which includes:
---- Steps taken to transform the data and perform summaries
---- A description, class and unit of measure of each column
+** Steps taken to transform the data and perform summaries
+** A description, class and unit of measure of each column
 
 * 'tidy.txt': The resulting dataset that includes the average of each variable for each activity and each subject.
---- This file was uploaded to the Coursera website (and is not stored in the repot).
---- The command for reading tidy.txt in R would be:
+** This file was uploaded to the Coursera website (and is not stored in the repot).
+** The command for reading tidy.txt in R would be:
 	data <- read.table("file_path/tidy.txt", header = TRUE)
     	View(data)
 
 * 'run_analysis': The R script that contains the code for performing the analysis.  
---- Significant comments were including within the script to define each step
+** Significant comments were included within the script to define each step
 
 
 
