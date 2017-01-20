@@ -30,18 +30,12 @@ Several signals were captured during the study design:
 ## Summary Design
 ### One R script was created called run_analysis.R that does the following.
 #### Merges the training and the test sets to create one data set.
-#### Extracts only the measurements on the mean and standard deviation for each measurement.
-* Any measurement variable with an original name containing "mean" or "std" were considered.
-* The only exception was a name containing "Freqmean", which was not considered to be a mean measurement, but rather a frequency.
-#### Uses descriptive activity names to name the activities in the data set.
-*The activity descriptions replaced the original activity numbers.
-#### Appropriately labels the data set with descriptive variable names.
-* Each label was modified to spell out the signal, domain, etc.  
-#### Creates a second, independent tidy data text file with the average of each variable for each activity and each subject that meets the following principles.
-* Each variable that is measured should be in one column.
-* Each different observation of that variable should be in a different row.
-* There should be one table for each "kind" of variable (Although, in this case the instructions specifically asked for one file).
-* If there are multiple talbes, they should include a column in the table that allows them to be linked.
+#### Extracts only the measurements on the mean and standard deviation for each measurement.  Any measurement variable with an original name containing "mean" or "std" were considered.  The only exception was a name containing "Freqmean", which was not considered to be a mean measurement, but rather a frequency.
+#### Uses descriptive activity names to name the activities in the data set.  The activity descriptions replaced the original activity numbers.
+#### Appropriately labels the data set with descriptive variable names.  Each label was modified to spell out the signal, domain, etc.  
+#### Creates a second, independent tidy data text file with the average of each variable for each activity and each subject that meets the following principles:  Each variable that is measured should be in one column.
+  Each different observation of that variable should be in a different row.  There should be one table for each "kind" of variable (Although, in this case the instructions specifically asked for one file).
+  If there are multiple talbes, they should include a column in the table that allows them to be linked.
 
 ## Packages required to run the R script:
 * data.table
@@ -59,7 +53,7 @@ Several signals were captured during the study design:
 
 ### README.txt
 
-### Code Bood for tidy.txt
+### Code Book for tidy.txt
 * Includes steps taken to transform the data and perform summaries
 * Includes description, class and unit of measure of each column
 
